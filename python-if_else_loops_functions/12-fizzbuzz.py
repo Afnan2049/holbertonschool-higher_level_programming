@@ -9,6 +9,5 @@ def fizzbuzz():
             print("Buzz", end="")
         else:
             print("{}".format(i), end="")
-        
         # Always print a space after every element
         print(" ", end="")
