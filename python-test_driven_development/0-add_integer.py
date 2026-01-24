@@ -2,6 +2,7 @@
 """
 This module provides a function that adds two integers.
 The function handles floats by casting them to integers first.
+It includes validation for input types to ensure only numbers are processed.
 """
 
 
