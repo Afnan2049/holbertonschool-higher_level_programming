@@ -3,7 +3,6 @@
 A module defining a class Square with a private size attribute.
 Demonstrating basic creation and encapsulation in Python
 """
-
 class Square:
     """
 A class defining a square by its size.
