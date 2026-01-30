@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-"""Module defining a square class with size validation"""
+"""Module defining a square class with size validation."""
 
 
 class Square:
-    """Representing a square with optional size.
+    """Representing a square with optional size."""
+
+    def __int__(self, size=0):
+        """Initialize a square with optional size.
     
     Args:
     size (int): size of the square
