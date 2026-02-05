@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+This module contains a function that appends a string to a text file.
+"""
+
+
 def append_write(filename="", text=""):
     """
     Appends a string to a UTF8 and returns the number of the characters added.
