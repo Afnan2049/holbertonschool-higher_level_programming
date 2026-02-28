@@ -21,7 +21,6 @@ if __name__ == "__main__":
     cur = db.cursor()
 
     # Query to JOIN cities and states and filter by state name
-    # We use %s to prevent SQL injection and JOIN to link the tables
     query = """
     SELECT cities.name
     FROM cities
@@ -29,7 +28,7 @@ if __name__ == "__main__":
     WHERE states.name = %s
     ORDER BY cities.id ASC
     """
-    
+
     # Execute with the 4th argument as a parameter
     cur.execute(query, (sys.argv[4],))
 
